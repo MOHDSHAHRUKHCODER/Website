@@ -1,0 +1,76 @@
+
+#topheader{
+    MARGIN: 0;
+    PADDING: 40PX;
+    FONT-SIZE: 60PX;
+    COLOR: #fff;
+    FONT-FAMILY: initial;
+    background-color: #A413A7;
+    text-align: center;
+}
+header {
+    background-color: #000000;
+    color: #fff;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+    
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 16px;
+    border: #fff 5px solid;
+}
+nav h4{
+    color: #fff;
+    text-decoration: none;
+    text-align: right; 
+
+}
+#foldericon{
+    width: 70px;
+    height: 70px;
+}
+
+#passwordarea{
+    padding-left: 30%;
+    padding-top:100px;
+}
+#password{
+    height:30px;
+    width: 500px;
+    font-size: 20px;
+}
+button{
+    height: 48px;
+    width: 508px;
+    font-size: 20px;
+    color: white;
+    background: black;
+    border-radius: 20px;
+}
+
+
+#userid{
+    height:30px;
+    width: 500px;
+    font-size: 20px;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    margin-top: 30%;
+    padding: 10rem;
+}

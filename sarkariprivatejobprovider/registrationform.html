@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Bar Example</title>
+    <link rel="stylesheet" href="registraionform.css">
+    <script  src="sarkarijava.js"></script>
+</head>
+<body>
+    <div id="topheader">
+        <h2>SARKARIPRIVATEJOB.COM</h2>
+    </div>
+    <header>
+        <nav>
+            <h4>Registraion PAGE<br>
+            </h4>
+            
+        </nav>
+    </header>
+    <body>
+        <div class="container">
+          <h1>REGISTRATION FORM</h1><br>
+        <form name="registration" class="registartion-form" onsubmit="return formValidation()">
+          <table>
+            
+            <tr>
+              <td><label for="name">Name:</label></td>
+              <td><input type="text" name="name" id="name" placeholder="your name"></td>
+            </tr>
+            <tr>
+              <td><label for="email">Email:</label></td>
+              <td><input type="text" name="email" id="email" placeholder="your email"></td>
+            </tr>
+            <tr>
+              <td><label for="password">Password:</label></td>
+              <td><input type="password" name="password" id="password"></td>
+            </tr>
+            <tr>
+              <td><label for="phoneNumber">Phone Number:</label></td>
+              <td><input type="number" name="phoneNumber" id="phoneNumber"></td>
+            </tr>
+            <tr>
+              <td><label for="gender">Gender:</label></td>
+              <td>Male: <input type="radio" name="gender" value="male">
+                Female: <input type="radio" name="gender" value="female">
+                Other: <input type="radio" name="gender" value="other"></td>
+            </tr>
+            
+            <tr>
+              <td><label for="zipcode">Zip Code:</label></td>
+              <td><input type="number" name="zipcode" id="zipcode"></td>
+            </tr>
+            
+            <tr>
+              <td colspan="2"><input type="submit" class="submit" value="Register" /></td>
+            </tr>
+          </table>
+        </form>
+      </div>
+        <script src="script.js"></script>
+      </body>
+  
+
+    <footer>
+        <!-- Your footer content goes here -->
+    </footer>
+</body>
+</html>
